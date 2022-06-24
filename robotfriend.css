@@ -1,0 +1,63 @@
+.robot-page{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Image/pinkball.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lavender;
+}
+.robo{
+    text-align: center;
+    padding-top: 5rem;
+}
+.robot-page h3{
+    /* color: white; */
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+input{
+    padding: 10px;
+    text-align: center;
+}
+.bord{
+    border: 1px solid chocolate;
+    overflow-y: scroll;
+    margin: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+.pic{
+    display: flex;
+    justify-content: space-between;
+}
+.frame1{
+    padding: 10px;
+    border: 1px solid lavenderblush;
+    background-color: rgb(144, 79, 148);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    transform:translateZ(0);
+    transition: transform .25s ease-out;
+}
+.frame1:hover{
+    transform: scale(1.04);
+}
+.frame1 img{
+    margin-right: 55px;
+}
+.pic img{
+    /* justify-items: center; */
+    padding-top: .8rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.pic h2{
+    text-align: center;
+}
+.pic p{
+    text-align: center;
+}
